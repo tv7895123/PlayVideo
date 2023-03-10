@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/VideoTabFragment">
+
+    <fragment
+        android:id="@+id/VideoTabFragment"
+        android:name="com.example.playvideo.presentlayer.fragment.VideoTabFragment"
+        android:label="VideoTab"
+        tools:layout="@layout/fragment_tab">
+    </fragment>
+
+    <fragment
+        android:id="@+id/VideoFragment"
+        android:name="com.example.playvideo.presentlayer.fragment.VideoFragment"
+        android:label="Video"
+        tools:layout="@layout/fragment_video">
+    </fragment>
+</navigation>
